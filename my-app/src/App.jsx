@@ -1,15 +1,12 @@
-
-import './App.css'
+import "./App.css";
+import Nav from "./components/Nav";
 
 function App() {
-  
-
   return (
     <>
-     <div className='text-blue-300'> hii</div>
-   
+      <Nav />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
